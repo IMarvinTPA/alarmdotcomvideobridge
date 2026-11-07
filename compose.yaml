@@ -1,0 +1,11 @@
+services:
+  alarmdotcomvideobridge:
+    image: imarvintpa/alarmdotcomvideobridge
+    volumes:
+      - ./config.yaml:/config.yaml
+    tty: true # for color logs
+  mediamtx:
+    image: bluenviron/mediamtx
+    container_name: mediamtx
+    ports:
+      - 8554:8554

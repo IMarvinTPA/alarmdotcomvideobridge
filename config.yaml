@@ -1,0 +1,17 @@
+alarm_auth:
+  alarm_user: [your alarm.com user name]
+  alarm_password: [your alarm.com password]
+  alarm_cookie: [get this by running pyalarmdotcomajax cli]
+  device_name: [name of this login or device]
+  debug: False
+camera:
+  description: [look for INFO:webrtc-rtsp-cli:description:]
+  video_source: liveVideoHighestResSource
+  stream_id: 0
+service_endpoint:
+  #rtsp://127.0.0.1:8554/live_webrtc
+  host: 127.0.0.1
+  port: 8554
+  path: garage_cam
+
+

@@ -1,0 +1,15 @@
+pyyaml
+typer
+aiohttp == 3.11.18
+beautifulsoup4 >= 4.13.4
+mashumaro~=3.16
+phonenumbers >= 9.0.5
+typer >= 0.16.0
+python-dateutil~=2.9.0.post0
+pyhumps~=3.8.0
+rich>=14.0.0
+click
+#pyalarmdotcomajax >= 0.6
+git+https://github.com/pyalarmdotcom/pyalarmdotcomajax.git
+#aiortc >= 1.17
+git+https://github.com/aiortc/aiortc.git
